@@ -1,0 +1,15 @@
+.orderd:hover{
+    color: pink;
+    text-decoration: underline;
+    font-size: large;
+    
+}
+.ordered {
+    text-decoration: none;
+    font-size: x-large;
+  }
+ul{
+    list-style: none;
+}  
+  
+  

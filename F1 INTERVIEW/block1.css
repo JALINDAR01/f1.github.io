@@ -1,0 +1,25 @@
+body{
+    background-color: green;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: center;
+   
+}
+.block {
+    /* background-color: white; */
+    border: 1px solid black;
+    /* padding: 10px; */
+  }
+
+
+@media (max-width: 768px) {
+    body{
+        background-color: blue;
+    }
+    .container{
+        display: block;
+    }
+    
+}

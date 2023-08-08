@@ -1,0 +1,43 @@
+nav{
+    background-color: black;
+    color: white;
+    
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+nav ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+nav li{
+    display: inline-block;
+}
+nav a{
+    color: aliceblue;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    margin: 2px;
+}
+nav a:hover{
+    background-color: #555;
+}
+.dropdown:hover .dropdown-menu{
+    display: inline-block;
+}
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    background-color: #333;
+    padding: 0px;
+    margin-top: 1px;
+}
+.dropdown-menu li{
+    display: block;
+}
+.dropdown-menu a{
+    padding: 10px;
+}
